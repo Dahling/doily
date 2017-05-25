@@ -1,0 +1,39 @@
+*,
+*::before,
+*::after {
+  -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      /*background-size: cover;*/
+}
+
+
+
+body {
+  background: url("../img/heart.png") no-repeat center center fixed;
+  background-size: cover;
+}
+
+img {
+
+}
+
+form {
+  padding: 50px;
+  width: 800px;
+  /*margin: auto;*/
+  position: relative;
+  margin-top: 500px;
+  margin-left: 450px;
+  color: white;
+  font-weight: bold;
+  font-size: 25px;
+}
+
+button {
+  margin-left: 20px;
+}
+
+#to, #from, #reply, #message {
+  padding: 10px;
+}
